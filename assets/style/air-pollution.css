@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.awareness-title {
+    text-align: center;
+}
+
+#googleMap {
+    width: 100%;
+    height: 50vh;
+}
+
+#location-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#listing-pollution,
+th,
+td {
+    text-align: center;
+    padding: 7px;
+    border: 1px solid #000;
+}
+
+#listing-pollution {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* .fa-location-dot {} */
